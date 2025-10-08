@@ -1,6 +1,6 @@
 
 // API key from VirusTotal API
-const API_KEY = "d92e1ba8ed48ea2b093a03af2e353cf011882d2789b1bea2cd28e53e9502dad3";
+const API_KEY = "YOUR_API_KEY";
 
 // Utility function to get DOM elements by ID
 const getElement = id => document.getElementById(id);
@@ -265,3 +265,4 @@ window.addEventListener('load', () => {
     const modal = getElement("fullReportModal");
     window.addEventListener('click', e => e.target === modal && closeModal());
 });
+
